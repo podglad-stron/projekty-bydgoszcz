@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Binokle - salon optyczny – optyk, Bydgoszcz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<script src="https://cdn.tailwindcss.com/3.4.1"></script>
+<script>tailwind.config = {"theme": {"extend": {"colors": {"bg": "#F5FAFC", "surface": "#FFFFFF", "ink": "#0F2A3D", "muted": "#4F6B7D", "accent": "#0E7C86", "accent2": "#D7F0F2", "onaccent": "#FFFFFF", "line": "#E1EEF2"}, "fontFamily": {"display": ["Manrope", "serif"], "body": ["Manrope", "sans-serif"]}}}};</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Manrope', sans-serif; padding-top: 20px; }
+  .font-display { font-family: 'Manrope', serif; }
+  li.is-today { color: #0E7C86; font-weight: 700; }
+  .bg-accent li.is-today { color: #FFFFFF; text-decoration: underline; text-underline-offset: 4px; }
+</style>
+</head>
+<body class="bg-bg text-ink font-body antialiased">
+<div class="fixed top-0 inset-x-0 z-50 bg-black/75 text-white/90 text-[11px] leading-5 text-center px-3 tracking-wide">Projekt demonstracyjny przygotowany dla Binokle - salon optyczny</div>
+
+<header class="sticky top-5 z-30 bg-surface/90 backdrop-blur border-b border-line">
+  <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between gap-4">
+    <a href="#" class="flex items-center gap-3 min-w-0"><span class="w-9 h-9 rounded-2xl bg-accent text-onaccent flex items-center justify-center shrink-0">
+      <i class="fa-solid fa-glasses"></i></span><span class="font-extrabold truncate">Binokle - salon optyczny</span></a>
+    <nav class="hidden md:flex gap-8 text-sm font-medium"><a href="#uslugi" class="hover:text-accent transition">Usługi</a><a href="#godziny" class="hover:text-accent transition">Godziny</a><a href="#kontakt" class="hover:text-accent transition">Kontakt</a></nav>
+    <a href="tel:+48780772801" class="hidden md:inline-flex items-center gap-2 rounded-2xl bg-accent text-onaccent px-5 py-2.5 text-sm font-semibold"><i class="fa-solid fa-phone"></i><span>Zadzwoń</span></a>
+  </div>
+</header>
+<section class="max-w-6xl mx-auto px-5 pt-14 pb-16 md:pt-24 md:pb-24 grid md:grid-cols-2 gap-12 items-center">
+  <div>
+    <span class="inline-flex items-center gap-2 rounded-2xl bg-accent2 text-accent px-4 py-1.5 text-sm font-semibold">
+      <i class="fa-solid fa-glasses"></i>Optyk · Bydgoszcz</span>
+    <h1 class="mt-6 text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">Binokle - salon optyczny</h1>
+    <p class="mt-5 text-lg text-muted"><i class="fa-solid fa-location-dot text-accent mr-2"></i>Piękna 13a, 85-303 Bydgoszcz</p>
+    <div class="mt-8 flex flex-col sm:flex-row gap-3">
+      <a href="tel:+48780772801" class="inline-flex items-center justify-center gap-3 rounded-2xl bg-accent text-onaccent px-7 py-4 text-lg font-semibold shadow-lg shadow-accent/25"><i class="fa-solid fa-phone"></i><span>Zadzwoń i umów wizytę</span></a>
+      <a href="#kontakt" class="inline-flex items-center justify-center gap-2 rounded-2xl border border-line bg-surface px-7 py-4 text-lg font-semibold">Dojazd</a>
+    </div>
+  </div>
+  <div class="relative">
+    <div class="absolute -inset-4 rounded-2xl bg-gradient-to-br from-accent2 to-transparent"></div>
+    <div class="relative rounded-2xl bg-surface border border-line p-8 shadow-xl shadow-accent/10 space-y-5">
+      <div class="flex items-center justify-between"><span class="font-bold text-lg">Informacje</span>
+        <i class="fa-solid fa-glasses text-3xl text-accent"></i></div>
+      <div class="flex items-center gap-3"><i class="fa-regular fa-clock text-accent"></i><span>Dziś: <strong data-today-hours>–</strong></span></div>
+      <div class="flex items-center gap-3"><i class="fa-solid fa-phone text-accent"></i><span>+48 780 772 801</span></div>
+      <div class="flex items-center gap-3"><i class="fa-solid fa-location-dot text-accent"></i><span>Piękna 13a, 85-303 Bydgoszcz</span></div>
+    </div>
+  </div>
+</section>
+<section id="uslugi" class="bg-surface border-y border-line">
+  <div class="max-w-6xl mx-auto px-5 py-20">
+    <h2 class="text-3xl md:text-4xl font-extrabold">Zakres usług</h2>
+    <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-5"><div class="rounded-2xl bg-surface border border-line p-6 hover:shadow-lg hover:shadow-accent/10 transition"><span class="w-12 h-12 rounded-2xl bg-accent2 text-accent flex items-center justify-center text-xl"><i class="fa-solid fa-glasses"></i></span><h3 class="mt-5 text-lg font-bold">Oprawy okularowe</h3></div><div class="rounded-2xl bg-surface border border-line p-6 hover:shadow-lg hover:shadow-accent/10 transition"><span class="w-12 h-12 rounded-2xl bg-accent2 text-accent flex items-center justify-center text-xl"><i class="fa-solid fa-eye"></i></span><h3 class="mt-5 text-lg font-bold">Szkła korekcyjne</h3></div><div class="rounded-2xl bg-surface border border-line p-6 hover:shadow-lg hover:shadow-accent/10 transition"><span class="w-12 h-12 rounded-2xl bg-accent2 text-accent flex items-center justify-center text-xl"><i class="fa-solid fa-eye"></i></span><h3 class="mt-5 text-lg font-bold">Soczewki kontaktowe</h3></div><div class="rounded-2xl bg-surface border border-line p-6 hover:shadow-lg hover:shadow-accent/10 transition"><span class="w-12 h-12 rounded-2xl bg-accent2 text-accent flex items-center justify-center text-xl"><i class="fa-solid fa-sun"></i></span><h3 class="mt-5 text-lg font-bold">Okulary przeciwsłoneczne</h3></div></div>
+    <p class="mt-6 text-xs text-muted">Przykładowy zakres usług – do uzupełnienia przez Państwa.</p>
+    <div class="mt-8"></div>
+  </div>
+</section>
+<section id="godziny" class="max-w-6xl mx-auto px-5 py-20 grid lg:grid-cols-5 gap-8">
+  <div class="lg:col-span-2 space-y-8">
+    <div class="rounded-2xl bg-surface border border-line p-7"><h2 class="text-2xl font-extrabold mb-5">Godziny otwarcia</h2><ul><li data-day="0" class="flex justify-between py-2 border-b border-line last:border-0"><span>Poniedziałek</span><span class="tabular-nums">9:30–17:30</span></li><li data-day="1" class="flex justify-between py-2 border-b border-line last:border-0"><span>Wtorek</span><span class="tabular-nums">9:30–17:30</span></li><li data-day="2" class="flex justify-between py-2 border-b border-line last:border-0"><span>Środa</span><span class="tabular-nums">9:30–17:30</span></li><li data-day="3" class="flex justify-between py-2 border-b border-line last:border-0"><span>Czwartek</span><span class="tabular-nums">9:30–17:30</span></li><li data-day="4" class="flex justify-between py-2 border-b border-line last:border-0"><span>Piątek</span><span class="tabular-nums">9:30–17:30</span></li><li data-day="5" class="flex justify-between py-2 border-b border-line last:border-0"><span>Sobota</span><span class="tabular-nums">10:00–13:00</span></li><li data-day="6" class="flex justify-between py-2 border-b border-line last:border-0"><span>Niedziela</span><span class="tabular-nums text-muted">nieczynne</span></li></ul></div>
+    <div id="kontakt" class="rounded-2xl bg-surface border border-line p-7"><h2 class="text-2xl font-extrabold mb-5">Kontakt</h2>
+      <ul class="space-y-5"><li class="flex gap-4 items-start"><span class="w-10 h-10 rounded-2xl bg-accent2 text-accent flex items-center justify-center shrink-0"><i class="fa-solid fa-location-dot"></i></span><span><span class="block text-xs uppercase tracking-wider text-muted">Adres</span><span class="block font-medium">Piękna 13a, 85-303 Bydgoszcz</span></span></li><li class="flex gap-4 items-start"><span class="w-10 h-10 rounded-2xl bg-accent2 text-accent flex items-center justify-center shrink-0"><i class="fa-solid fa-phone"></i></span><span><span class="block text-xs uppercase tracking-wider text-muted">Telefon</span><span class="block font-medium"><a class="hover:text-accent" href="tel:+48780772801">+48 780 772 801</a></span></span></li><li class="flex gap-4 items-start"><span class="w-10 h-10 rounded-2xl bg-accent2 text-accent flex items-center justify-center shrink-0"><i class="fa-solid fa-envelope"></i></span><span><span class="block text-xs uppercase tracking-wider text-muted">E-mail</span><span class="block font-medium"><a class="hover:text-accent break-all" href="mailto:optykbinoklebydgoszcz@gmail.com">optykbinoklebydgoszcz@gmail.com</a></span></span></li><li class="flex gap-4 items-start"><span class="w-10 h-10 rounded-2xl bg-accent2 text-accent flex items-center justify-center shrink-0"><i class="fa-solid fa-thumbs-up"></i></span><span><span class="block text-xs uppercase tracking-wider text-muted">Facebook</span><span class="block font-medium"><a class="hover:text-accent underline underline-offset-4" href="https://www.facebook.com/p/Optyk-Binokle-Bydgoszcz-61560268552785" target="_blank" rel="noopener">Otwórz profil</a></span></span></li></ul></div>
+  </div>
+  <div class="lg:col-span-3"><div class="rounded-2xl overflow-hidden border border-line"><iframe title="Mapa dojazdu" src="https://www.openstreetmap.org/export/embed.html?bbox=17.974249%2C53.115189%2C17.986249%2C53.121189&layer=mapnik&marker=53.118189%2C17.980249" class="w-full h-72 md:h-96 block"></iframe></div><div class="mt-3 flex flex-wrap gap-4 text-sm"><a class="underline underline-offset-4 hover:text-accent" href="https://www.google.com/maps/dir/?api=1&destination=53.118189,17.980249" target="_blank" rel="noopener"><i class="fa-solid fa-route mr-1"></i>Wyznacz trasę</a><a class="underline underline-offset-4 hover:text-accent" href="https://www.openstreetmap.org/?mlat=53.118189&mlon=17.980249#map=18/53.118189/17.980249" target="_blank" rel="noopener">Większa mapa</a></div></div>
+</section>
+<footer class="py-10 text-center text-sm text-muted"><p>© 2026 Binokle - salon optyczny · Piękna 13a, 85-303 Bydgoszcz</p><p class="mt-1 text-xs opacity-70">Projekt demonstracyjny</p></footer>
+<div class="md:hidden fixed bottom-0 inset-x-0 z-40 p-3 bg-bg/90 backdrop-blur border-t border-line"><a href="tel:+48780772801" class="flex items-center justify-center gap-3 w-full rounded-xl bg-accent text-onaccent font-semibold text-lg py-4 shadow-lg"><i class="fa-solid fa-phone"></i>Zadzwoń: +48 780 772 801</a></div><div class="md:hidden h-24"></div>
+<script>
+  (function () {
+    var day = (new Date().getDay() + 6) % 7, hours = {"0": ["9:30–17:30"], "1": ["9:30–17:30"], "2": ["9:30–17:30"], "3": ["9:30–17:30"], "4": ["9:30–17:30"], "5": ["10:00–13:00"], "6": []};
+    document.querySelectorAll('[data-day="' + day + '"]').forEach(function (el) { el.classList.add('is-today'); });
+    var slots = hours[String(day)], out = document.querySelector('[data-today-hours]');
+    if (out && slots) out.textContent = slots.length ? slots.join(', ') : 'nieczynne';
+  })();
+</script>
+</body>
+</html>
