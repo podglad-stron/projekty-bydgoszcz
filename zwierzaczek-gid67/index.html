@@ -22,7 +22,11 @@
   [data-today-status][data-closed] .status-core { background: #94A3B8; }
   @keyframes spin-slow { to { transform: rotate(360deg); } }
   .spin-slow { animation: spin-slow 60s linear infinite; }
-  @media (prefers-reduced-motion: reduce) { .spin-slow, .animate-ping { animation: none; } }
+  @keyframes hud-scan { 0% { top: -6rem; } 100% { top: 100%; } }
+  .hud-scan { animation: hud-scan 4.5s ease-in-out infinite; }
+  @keyframes hud-needle { from { transform: rotate(-80deg); } to { transform: rotate(28deg); } }
+  .hud-needle { transform: rotate(28deg); animation: hud-needle 1.6s cubic-bezier(.2,.8,.2,1) both; }
+  @media (prefers-reduced-motion: reduce) { .spin-slow, .animate-ping, .hud-scan, .hud-needle { animation: none; } }
 </style>
 </head>
 <body class="bg-bg text-ink font-body antialiased">
